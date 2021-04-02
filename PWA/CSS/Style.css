@@ -1,0 +1,95 @@
+.navbar-custom {
+    background-color: #000000;
+    border-bottom: 1px solid red;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.4em !important;
+}
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.search-custom {
+    background: 000000;
+    border: 1px solid black;
+    color: #7a7a7a;
+    font-size: 1.0em !important;
+}
+.search-custom:focus {
+    background: 000000;
+    border: 1px solid black;
+    color: #ffffff;
+}
+body {
+    background: url("../Img/Bckimagesmall.png") repeat;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: grey;
+}
+.nav-link:active {
+    color: red;
+}
+.btn-custom {
+    color: red;
+    background: black;
+    border: 1px solid red;
+}
+.dropdown-custom {
+    background: black;
+    border: 1px solid red;
+    border-right: 1px solid red;
+}
+.dropdown-item {
+    color: white;
+    font-size: 1.4em !important;
+}
+.dropdown-item:active {
+    color: white;
+    background: red;
+}
+.hr-custom {
+  border-top: 1px solid red;
+}
+.jumbotron-human {
+  background-image: url("../Img/Humanart3.png");
+  background-size: cover;
+}
+.jumbotron-elf {
+  background-image: url("../Img/Elfart.png");
+  background-size: cover;
+}
+.jumbotron-home {
+  background-image: url("../Img/Homeart.jpg");
+  background-size: cover;
+}
+.jumbotron-item {
+  background-image: url("../Img/Itemsart.jpg");
+  background-size: cover;
+}
+@media (min-width: 1200px) {
+.container {
+    min-width: 1200px;
+}
+}
+.modal-header {
+    background-color: #000000;
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+.modal-body {
+    font-family: 'Staatliches', cursive;
+}
+.close {
+    color: white;
+}
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+}
+.table .thead-dark th {
+  color: #fff !important;
+  background-color: black !important;
+  border-color: black !important;
+}
